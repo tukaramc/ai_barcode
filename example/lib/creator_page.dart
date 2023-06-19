@@ -66,20 +66,20 @@ class _CreatorState extends State<CreatorPage> {
                 ),
               ],
             ),
-            RaisedButton.icon(
-              color: Theme.of(context).primaryColor,
-              textColor: Colors.white,
-              onPressed: () {
-                setState(() {
-                  //update value
-                  _creatorController?.updateValue(
-                    value: _qrCodeOfInput,
-                  );
-                });
-              },
-              icon: Icon(Icons.create),
-              label: Text("生成二维码"),
-            ),
+            // RaisedButton.icon(
+            //   color: Theme.of(context).primaryColor,
+            //   textColor: Colors.white,
+            //   onPressed: () {
+            //     setState(() {
+            //       //update value
+            //       _creatorController?.updateValue(
+            //         value: _qrCodeOfInput,
+            //       );
+            //     });
+            //   },
+            //   icon: Icon(Icons.create),
+            //   label: Text("生成二维码"),
+            // ),
             Column(
               children: <Widget>[
                 Text("生成的二维码：$_qrCodeOfInput"),
