@@ -18,16 +18,16 @@ dependencies:
     path: ../
 
   # route package
-  airoute: ^2.2.0
+  airoute: ^3.0.0
 
   # Flutter Permission.
-  permission_handler: ^8.0.0+2
+  permission_handler: ^10.3.0
 
   # message
-  ai_awesome_message: ^2.2.0
+  ai_awesome_message: ^3.0.0
 
   # design
-  air_design: ^2.2.0
+  air_design: ^3.0.0
 
 dev_dependencies:
   flutter_test:
