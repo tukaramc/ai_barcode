@@ -126,7 +126,7 @@ class AiBarcodeScannerView:NSObject,FlutterPlatformView{
                                     self.flutterResult?("\(stringValue)");
                                 }
                                 
-                                print("Found code: \(stringValue)")
+                                // debugPrint("Found code: \(stringValue)")
                             }
                         }
                     })

@@ -130,6 +130,7 @@ class _AppBarcodeState extends State<AppBarcodeScannerWidget> {
   }
 }
 
+// ignore: must_be_immutable
 class _BarcodeInputWidget extends StatefulWidget {
   late ValueChanged<String> _changed;
 
